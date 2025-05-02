@@ -40,7 +40,7 @@ export default function CreateDoctorPage() {
 
         const response = await fetch("/api/cdoctors", {
           method: "POST",
-          body: formData, // Send the FormData as the body
+          body: formData, 
         });
 
         const data = await response.json();
